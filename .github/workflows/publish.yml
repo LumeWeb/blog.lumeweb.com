@@ -22,7 +22,7 @@ jobs:
               run: hugo --minify
 
             - name: Deploy
-              uses: LumeWeb/web3.news-publisher@v0.1.0-develop.1
+              uses: LumeWeb/web3.news-publisher@develop
               if: github.ref == 'refs/heads/master'
               with:
                   node: ${{ env.NODE }}
