@@ -1,0 +1,4 @@
+baseURL = "https://blog.lumeweb.com"
+languageCode = "en-us"
+title = "Lume Web News"
+theme = "PaperMod"
