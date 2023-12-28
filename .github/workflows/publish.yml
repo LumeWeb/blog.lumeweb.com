@@ -25,5 +25,5 @@ jobs:
               uses: LumeWeb/web3.news-publisher@develop
               if: github.ref == 'refs/heads/master'
               with:
-                  node: ${{ env.NODE }}
+                  node: ${{ vars.NODE }}
                   seed: ${{ secrets.SEED }}
